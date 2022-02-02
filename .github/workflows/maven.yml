@@ -17,4 +17,4 @@ jobs:
         run: mvn --batch-mode --update-snapshots verify
 
       - name: Maven deploy
-        run: mvn -Dremote.user=${{ secrets.REMOTE_USER }} -Dremote.password=${{ secrets.REMOTE_PW }} tomcat7:deploy
+        run: mvn -Dremote.user=${{ secrets.REMOTE_USER }} -Dremote.password=${{ secrets.REMOTE_PW }} tomcat7:deplo
